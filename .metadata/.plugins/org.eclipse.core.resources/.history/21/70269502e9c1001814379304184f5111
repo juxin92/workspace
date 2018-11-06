@@ -1,0 +1,21 @@
+package com.juxin.collction;
+
+public class Test {
+	public static void main(String[] args) {
+		String s = "Hello, I am juxin. Good morning. Have a good class. Have a good visit. Have fun. ";
+
+		String[] words = s.split("[,. ]");
+		
+		Map<String, Integer> map = new Treemap<>();
+		
+		for (String a : words) {
+			String key = a.toLowerCase();
+			
+			if (key.length() > 0) {
+				if (map.get(key) == null) {
+					map.put
+				}
+			}
+		}
+	}
+}

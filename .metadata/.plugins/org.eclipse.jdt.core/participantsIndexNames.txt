@@ -1,0 +1,5 @@
+INDEX VERSION 1.130
+D:\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2310620778.index
+\Luck\src
+D:\workspace_test\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2310620778.index
+\Luck\src

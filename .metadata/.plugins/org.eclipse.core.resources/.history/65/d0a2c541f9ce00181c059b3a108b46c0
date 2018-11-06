@@ -1,0 +1,44 @@
+package com.juxin.exercise;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Test {
+	public static void main(String[] args) {
+		String myLuck = "03,04,09,18,22,24,07";
+		String Luck = "";
+
+		for (String s : randomOfList()) {
+			Luck += s;
+		}
+
+		System.out.println(Luck);
+
+	}
+
+	public static List<String> randomOfList() {
+		Set<String> mySet = new HashSet<>();
+		while (mySet.size() < 6) {
+			 
+			String ss = String.valueOf((int) (Math.random() * 36) + 1);
+			if (ss.length() == 1) {
+				ss = "0" + ss;
+			}
+			mySet.add(ss);
+		}
+
+		List<String> myTreeList = new ArrayList<>(mySet);
+		Collections.sort(myTreeList);
+		return myTreeList;
+	}
+	
+	public static String luckString(List<String> luckList) {
+		String ss = luckList.get(0);
+		for (int i = 1; i < luckList.size(); i++) {
+			
+		}
+	}
+}

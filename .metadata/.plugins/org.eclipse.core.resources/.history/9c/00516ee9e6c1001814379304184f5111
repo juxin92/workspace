@@ -1,0 +1,33 @@
+package com.juxin.collction;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
+public class Test {
+	public static void main(String[] args) {
+		List<Integer> myList = Arrays.asList(3, 1, 5, 6, 4, 8, 5);
+		Collections.sort(myList);
+		System.out.println(myList);
+		System.out.println(Collections.max(myList));
+
+		List<String> sList = Arrays.asList("red", "blue", "green");
+		Collections.sort(sList, Collections.reverseOrder());
+		System.out.println(sList);
+		Collections.sort(sList);
+		System.out.println(sList);
+		System.out.println(Collections.max(sList));
+	}
+
+	public static long getTime(Collection<Integer> c, int size) {
+		List<String> myList = new ArrayList<>();
+
+		for (int i = 0; i < array.length; i++) {
+			myList.add(array[i]);
+		}
+
+		return myList;
+	}
+}

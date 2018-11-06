@@ -1,0 +1,53 @@
+
+7月 28, 2018 08:36:48.94 NEW SESSION
+7月 28, 2018 08:36:48.94 [200:11148:0728/083648.946:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7月 28, 2018 09:02:56.48 [1244:9892:0728/090256.486:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7月 28, 2018 09:13:29.70 Unable to read VR Path Registry from C:\Users\Mloong\AppData\Local\openvr\openvrpaths.vrpath
+7月 28, 2018 09:13:29.70 [1244:9892:0728/091329.700:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 09:15:56.95 [1244:9892:0728/091556.950:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 09:18:53.13 [1244:9892:0728/091853.137:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 09:22:40.40 [1244:9892:0728/092240.402:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 09:27:50.29 [1244:9892:0728/092750.294:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 09:36:18.41 [1244:9892:0728/093618.419:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 09:48:24.58 [1244:9892:0728/094824.584:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 10:00:31.07 [1244:9892:0728/100031.076:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 10:12:37.16 [1244:9892:0728/101237.161:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+7月 28, 2018 13:15:50.44 NEW SESSION
+7月 28, 2018 13:15:50.44 [13100:3284:0728/131550.447:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7月 28, 2018 13:22:01.55 Unable to read VR Path Registry from C:\Users\Mloong\AppData\Local\openvr\openvrpaths.vrpath
+7月 28, 2018 13:22:01.55 [13100:3284:0728/132201.555:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 13:24:28.66 [13100:3284:0728/132428.668:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 13:27:33.77 [13100:3284:0728/132733.771:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 13:31:05.70 [13100:3284:0728/133105.707:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 13:36:27.01 [13100:3284:0728/133627.015:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 13:46:17.27 [13100:3284:0728/134617.246:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 13:58:23.33 [13100:3284:0728/135823.333:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 14:10:29.37 [13100:3284:0728/141029.371:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 14:22:35.46 [13100:3284:0728/142235.461:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 14:34:41.47 [13100:3284:0728/143441.478:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 14:46:47.80 [13100:3284:0728/144647.808:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 14:58:53.96 [13100:3284:0728/145853.965:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 15:11:00.11 [13100:3284:0728/151100.109:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 15:23:06.15 [13100:3284:0728/152306.151:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 15:35:12.18 [13100:3284:0728/153512.184:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 15:47:19.17 [13100:3284:0728/154719.174:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 15:59:25.21 [13100:3284:0728/155925.217:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 16:11:31.26 [13100:3284:0728/161131.259:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 16:23:37.31 [13100:3284:0728/162337.311:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 16:35:43.32 [13100:3284:0728/163543.321:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 16:47:49.37 [13100:3284:0728/164749.376:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 16:59:55.41 [13100:3284:0728/165955.414:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 17:12:01.42 [13100:3284:0728/171201.426:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 17:24:07.48 [13100:3284:0728/172407.487:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 17:36:13.52 [13100:3284:0728/173613.524:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 17:48:19.53 [13100:3284:0728/174819.538:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 18:00:25.58 [13100:3284:0728/180025.581:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 18:12:31.61 [13100:3284:0728/181231.615:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 18:24:37.66 [13100:3284:0728/182437.665:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 18:36:44.96 [13100:3284:0728/183644.960:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 18:48:51.00 [13100:3284:0728/184851.007:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 19:00:57.05 [13100:3284:0728/190057.054:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 19:13:03.32 [13100:3284:0728/191303.319:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 19:25:09.46 [13100:3284:0728/192509.462:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7月 28, 2018 19:37:15.97 [13100:3284:0728/193715.978:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.

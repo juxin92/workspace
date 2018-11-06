@@ -1,0 +1,7 @@
+package com.luck.logic;
+
+public class Lucklogic {
+	public LuckDTO newNumber(LuckDTO luckdto) {
+		return luckdto;
+	}
+}

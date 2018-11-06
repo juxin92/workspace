@@ -1,0 +1,36 @@
+package com.juxin.test;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestBean {
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
+
+		DataSource ds = ctx.getBean("dataSource", DataSource.class);
+
+		Connection conn = ds.getConnection();
+
+		String sql = "select * from luck";
+		PreparedStatement pre = conn.prepareStatement(sql);
+		// pre.setString(1, "012");
+		ResultSet result = pre.executeQuery();
+
+		while (result.next()) {
+			System.out.println(result.getString("luck_id") + "\t" + result.getInt("luck_no1"));
+		}
+
+		if (result != null)
+			result.close();
+		if (pre != null)
+			pre.close();
+		if (conn != null)
+			conn.close();
+
+	}
+}

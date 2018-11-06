@@ -1,0 +1,12 @@
+package com.juxin.collction;
+
+public class Test {
+	public static void main(String[] args) {
+		String s = "Hello, I am juxin. Good morning. Have a good class. Have a good visit. Have fun. ";
+
+		String[] words = s.split("[,. ]");
+		for (String a : words) {
+			System.out.println(a);
+		}
+	}
+}

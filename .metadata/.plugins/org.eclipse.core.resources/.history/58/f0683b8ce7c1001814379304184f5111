@@ -1,0 +1,21 @@
+package com.juxin.collction;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Test {
+	public static void main(String[] args) {
+		Map<Integer, String> hashMap = new HashMap<>();
+		hashMap.put(20124001, "张三");
+		hashMap.put(20124002, "李四");
+		hashMap.put(20124003, "王五");
+		hashMap.put(20124004, "赵六");
+		hashMap.put(20124005, "钱七");
+		hashMap.put(20124006, "孙八");
+
+		System.out.println(hashMap);
+		
+		Map<Integer, String> treemap = new TreeMap<>();
+		
+	}
+}

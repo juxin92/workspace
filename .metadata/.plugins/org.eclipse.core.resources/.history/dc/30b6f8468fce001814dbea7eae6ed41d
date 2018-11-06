@@ -1,0 +1,27 @@
+package com.juxin.exercise;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Test {
+	public static void main(String[] args) {
+		String myLuck = "03,04,09,18,22,24,07";
+
+		Set<String> randomSet = new LinkedHashSet<>();
+
+		System.out.println(randomOfSet());
+
+	}
+
+	public static Set<String> randomOfSet() {
+		Set<String> mySet = new HashSet<>();
+		while (mySet.size() < 6) {
+			int number = (int) (Math.random() * 36) + 1;
+			String ss = String.valueOf(number);
+			mySet.add(ss);
+		}
+
+		return mySet;
+	}
+}
