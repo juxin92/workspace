@@ -8,87 +8,78 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Ò»¸ö·Ç³£±ê×¼µÄÁ¬½ÓOracleÊı¾İ¿âµÄÊ¾Àı´úÂë
+ * Ò»ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oracleï¿½ï¿½ï¿½İ¿ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 public class Luck {
 	public static void main(String[] args) {
-		Connection con = null;// ´´½¨Ò»¸öÊı¾İ¿âÁ¬½Ó
-	    PreparedStatement pre = null;// ´´½¨Ô¤±àÒëÓï¾ä¶ÔÏó£¬Ò»°ã¶¼ÊÇÓÃÕâ¸ö¶ø²»ÓÃStatement
-	    ResultSet result = null;// ´´½¨Ò»¸ö½á¹û¼¯¶ÔÏó
-	    try
-	    {
-	        Class.forName("oracle.jdbc.driver.OracleDriver");// ¼ÓÔØOracleÇı¶¯³ÌĞò
-	        System.out.println("¿ªÊ¼³¢ÊÔÁ¬½ÓÊı¾İ¿â£¡");
-	        String url = "jdbc:oracle:" + "thin:@DESKTOP-1LO98I2:1521:Jux";// DESKTOP-1LO98IÊÇ±¾»úµØÖ·£¬JuxÊÇOracleµÄÄ¬ÈÏÊı¾İ¿âÃû
-	        String user = "student";// ÓÃ»§Ãû,ÏµÍ³Ä¬ÈÏµÄÕË»§Ãû
-	        String password = "student";// Äã°²×°Ê±Ñ¡ÉèÖÃµÄÃÜÂë
-	        con = DriverManager.getConnection(url, user, password);// »ñÈ¡Á¬½Ó
-	        System.out.println("Á¬½Ó³É¹¦£¡");
-	        String sql = "select * from luck";// Ô¤±àÒëÓï¾ä
-	        pre = con.prepareStatement(sql);// ÊµÀı»¯Ô¤±àÒëÓï¾ä
-	        // pre.setString(1, "012");// ÉèÖÃ²ÎÊı£¬Ç°ÃæµÄ1±íÊ¾²ÎÊıµÄË÷Òı£¬¶ø²»ÊÇ±íÖĞÁĞÃûµÄË÷Òı
-	        result = pre.executeQuery();// Ö´ĞĞ²éÑ¯£¬×¢ÒâÀ¨ºÅÖĞ²»ĞèÒªÔÙ¼Ó²ÎÊı
-	        
-	        List<String>  id = new ArrayList<>();
-	        List<Integer> no1 = new ArrayList<>();
-        	List<Integer> no2 = new ArrayList<>();
-        	List<Integer> no3 = new ArrayList<>();
-        	List<String> no = new ArrayList<>();
-        	List<Integer> date = new ArrayList<>();
+		Connection con = null;// ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½ï¿½
+		PreparedStatement pre = null;// ï¿½ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ã¶¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Statement
+		ResultSet result = null;// ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");// ï¿½ï¿½ï¿½ï¿½Oracleï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			System.out.println("1113");
+			String url = "jdbc:oracle:" + "thin:@DESKTOP-1LO98I2:1521:Jux";// DESKTOP-1LO98Iï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½Juxï¿½ï¿½Oracleï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½
+			String user = "student";// ï¿½Ã»ï¿½ï¿½ï¿½,ÏµÍ³Ä¬ï¿½Ïµï¿½ï¿½Ë»ï¿½ï¿½ï¿½
+			String password = "student";// ï¿½ã°²×°Ê±Ñ¡ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½
+			con = DriverManager.getConnection(url, user, password);// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
+			System.out.println("çšæ¬£");
+			String sql = "select * from luck";// Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			pre = con.prepareStatement(sql);// Êµï¿½ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			// pre.setString(1, "012");// ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½1ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			result = pre.executeQuery();// Ö´ï¿½Ğ²ï¿½Ñ¯ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ²ï¿½ï¿½ï¿½Òªï¿½Ù¼Ó²ï¿½ï¿½ï¿½
 
-	        
-	        while (result.next()) {
-	        	
-	        	id.add(result.getString("luck_id"));
-	        	no1.add(result.getInt("luck_no1"));
-	        	no2.add(result.getInt("luck_no2"));
-	        	no3.add(result.getInt("luck_no3"));
-	        	no.add(result.getString("luck_no"));
-	        	date.add(result.getInt("insert_date"));
-	        }
-	        
-	        for (int i = 0; i <= 9; i++) {
-        		for (int j = i +1; j <= 9; j++) {
-        			for (int k = j + 1; k <= 9; k++) {
-        				String number = String.valueOf(i) + String.valueOf(j) + String.valueOf(k);
-        				int value = 0;
-        				int m = 0;
-        				System.out.println();
-        				System.out.print(number);
-        				for ( ;m < id.size(); m++) {
-        					if (number.equals(no.get(m))) {
-        						System.out.println("\tµÚ" + id.get(m) + "ÆÚ" + date.get(m) + "³ö¬F£¬Â©ÁË" + value + "´Î\t");
-        						value = 0;
-        					} else {
-        						value++;
-        					}
-        				}
-        			}
-        		}
-        	}
-	    }
-	    catch (Exception e)
-	    {
-	        e.printStackTrace();
-	    }
-	    finally
-	    {
-	        try
-	        {
-	            // ÖğÒ»½«ÉÏÃæµÄ¼¸¸ö¶ÔÏó¹Ø±Õ£¬ÒòÎª²»¹Ø±ÕµÄ»°»áÓ°ÏìĞÔÄÜ¡¢²¢ÇÒÕ¼ÓÃ×ÊÔ´
-	            // ×¢Òâ¹Ø±ÕµÄË³Ğò£¬×îºóÊ¹ÓÃµÄ×îÏÈ¹Ø±Õ
-	            if (result != null)
-	                result.close();
-	            if (pre != null)
-	                pre.close();
-	            if (con != null)
-	                con.close();
-	            System.out.println("Êı¾İ¿âÁ¬½ÓÒÑ¹Ø±Õ£¡");
-	        }
-	        catch (Exception e)
-	        {
-	            e.printStackTrace();
-	        }
-	    }
+			List<String> id = new ArrayList<>();
+			List<Integer> no1 = new ArrayList<>();
+			List<Integer> no2 = new ArrayList<>();
+			List<Integer> no3 = new ArrayList<>();
+			List<String> no = new ArrayList<>();
+			List<Integer> date = new ArrayList<>();
+
+			while (result.next()) {
+
+				id.add(result.getString("luck_id"));
+				no1.add(result.getInt("luck_no1"));
+				no2.add(result.getInt("luck_no2"));
+				no3.add(result.getInt("luck_no3"));
+				no.add(result.getString("luck_no"));
+				date.add(result.getInt("insert_date"));
+			}
+
+			for (int i = 0; i <= 9; i++) {
+				for (int j = i + 1; j <= 9; j++) {
+					for (int k = j + 1; k <= 9; k++) {
+						String number = String.valueOf(i) + String.valueOf(j) + String.valueOf(k);
+						int value = 0;
+						int m = 0;
+						System.out.println();
+						System.out.print(number);
+						for (; m < id.size(); m++) {
+							if (number.equals(no.get(m))) {
+								System.out.println("\tæœŸæ•°" + id.get(m) + "æ—¶é—´" + date.get(m) + "å·ç " + value + "\t");
+								value = 0;
+							} else {
+								value++;
+							}
+						}
+					}
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				// ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø±Õ£ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ø±ÕµÄ»ï¿½ï¿½ï¿½Ó°ï¿½ï¿½ï¿½ï¿½ï¿½Ü¡ï¿½ï¿½ï¿½ï¿½ï¿½Õ¼ï¿½ï¿½ï¿½ï¿½Ô´
+				// ×¢ï¿½ï¿½Ø±Õµï¿½Ë³ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ãµï¿½ï¿½ï¿½ï¿½È¹Ø±ï¿½
+				if (result != null)
+					result.close();
+				if (pre != null)
+					pre.close();
+				if (con != null)
+					con.close();
+				System.out.println("ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹Ø±Õ£ï¿½");
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
 	}
 }
